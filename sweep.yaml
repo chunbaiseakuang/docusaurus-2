@@ -10,3 +10,7 @@ gha_enabled: True
 description: ''
 
 # Default Values: https://github.com/sweepai/sweep/blob/main/sweep.yaml
+
+# New environment variables
+ENV_VAR1: 'value1'
+ENV_VAR2: 'value2'
