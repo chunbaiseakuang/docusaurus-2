@@ -23,6 +23,7 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
+        <MourningSymbol />
       </div>
     </header>
   );
@@ -31,6 +32,10 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   const [isMourning, setIsMourning] = useState(false); // replace false with the condition to enable mourning mode
+
+  const toggleMourning = () => {
+    setIsMourning(!isMourning);
+  };
 
   return (
     <Layout
