@@ -21,11 +21,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.mourning {
+body.mourning,
+:root.mourning {
   --ifm-color-primary: #000033;
   --ifm-color-primary-dark: #12341a;
   --ifm-background-color: #999999;
-}
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
